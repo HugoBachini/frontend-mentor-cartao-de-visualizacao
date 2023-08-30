@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://hugobachini.github.io/mentor-nft/)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-sLsOziPJYk)
 - Live Site URL: [https://hugobachini.github.io/mentor-nft/)
 
 ## My process
