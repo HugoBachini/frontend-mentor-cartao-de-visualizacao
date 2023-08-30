@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: 'Outsit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    height: 754px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    box-sizing: border-box;
+    width: 340px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.img-container #img-equilibrium{
+    width: 100%;
+    border-radius: 5px;
+}
+                                                                                                                                                                                                                                                                                                                             
+.img-container #icon-view{
+    position: absolute;
+    opacity: 0;
+}
+
+.img-container:hover #icon-view{
+    background-color: hsla(178, 100%, 50%, 0.4);
+    opacity: 1;
+    padding: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: solid 1px hsl(215, 32%, 27%);
+}
+
+.row .col-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.row .col-left span{
+    color: hsl(178, 100%, 50%);
+    margin: 2px 0 0 8px;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.row .col-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.row .col-right span{
+    color: hsl(215, 51%, 70%);
+    margin: 2px 0 0 8px;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 5px 0;
+}
+
+.footer #img-avatar{
+    width: 30px;
+    margin-right: 14px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.footer span{
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.footer span a{
+    color: white;
+    text-decoration: none;
+}
+
+.attribution{
+    position: absolute;    
+    margin-top: 700px;
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.footer a:hover, .attribution a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
