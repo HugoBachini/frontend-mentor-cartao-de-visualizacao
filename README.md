@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://hugobachini.github.io/mentor-nft/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://hugobachini.github.io/mentor-nft/)
 
 ## My process
 
